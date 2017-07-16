@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ins
+  resources:
+    chain:
+      cache: false  # 开发模式下不需要缓存resources资源下的静态文件，生产模式改为true
+server:
+  port: 9002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9001/eureka/
+

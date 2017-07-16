@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: cf_zuul
+server:
+  port: 9000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9001/eureka/
